@@ -85,7 +85,7 @@ var config = {
             id: '2',
             alignment: 'right',
             hidden: false,
-            title: '',
+            title: 'Beşinci Galata Köprüsü, bir önceki köprü olan Tarihi Galata Köprüsü’nden birkaç metre kuzeye inşa edilir. Henri Prost tarafından 1943-1944 yıllarında hazırlanan Eminönü Meydanı ve Haliç geçişine ilişkin nâzım imar planında önerilen Galata Köprüsü konumuyla, Yeni Galata Köprüsü’nün mevcut konumu arasındaki benzerlik dikkat çekicidir.',
             image: 'https://i.ibb.co/rfQkWnyF/2.gif',
             description: '2025 Google Earth uydu fotoğrafı ve 1940 Pervititch Eminönü haritasından yararlanılarak görselleştirilmiştir. ',
             location: {
@@ -116,7 +116,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/1GF76WnJ/3.png',
+            image: '',
             description: '',
             location: {
                  center: [28.97290549210271,41.01830502840522],
@@ -140,33 +140,6 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
-        {
-            id: '4',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                 center: [28.972280998711256,41.01876915864324],
-                zoom: 19,
-                pitch: 40,
-                bearing: 0,
-                speed: 1,
-                curve: 2
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 0, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
         },
     ]
 };
