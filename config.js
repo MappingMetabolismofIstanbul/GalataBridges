@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,7 +20,7 @@ var config = {
     title: 'Galata Köprüleri Tarihi / Galata Bridges Timeline',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -89,13 +90,13 @@ var config = {
             image: 'https://i.ibb.co/rfQkWnyF/2.gif',
             description: '2025 Google Earth uydu fotoğrafı ve 1940 Pervititch Eminönü haritasından yararlanılarak görselleştirilmiştir. ',
             location: {
-              center: [28.972280998711256,41.01876915864324],
-                zoom: 17,
-                pitch: 40,
+              center: [28.97511199487016,41.01853042767442],
+                zoom: 16.5,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -111,35 +112,6 @@ var config = {
                 // }
             ]
         },
-        {
-            id: '3',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                 center: [28.97290549210271,41.01830502840522],
-                zoom: 19,
-                pitch: 40,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+        
     ]
 };
